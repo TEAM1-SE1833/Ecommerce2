@@ -17,8 +17,8 @@ const orderSchema = new Schema({
             type: Number,
             required: true
         },
-        salePrice: Number, // giá tại thời điểm bán
-        saleCost: Number, // chi phí của sản phẩm tại thời điểm bán
+        salePrice: Number, 
+        saleCost: Number, 
         color: {
             type: String,
             required: true
