@@ -187,12 +187,6 @@ export default function ManagerDashboardLaydout() {
                 </ListItemIcon>
                 <ListItemText primary="Products" />
               </ListItemButton>
-              <ListItemButton onClick={handleOnclickOrders}>
-                <ListItemIcon>
-                  <ShoppingCartIcon />
-                </ListItemIcon>
-                <ListItemText primary="Orders" />
-              </ListItemButton>
             </React.Fragment>
             <Divider sx={{ my: 1 }} />
             <React.Fragment>
